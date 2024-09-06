@@ -1,113 +1,113 @@
 export const perguntas = [
     {
-        enunciado: "1. Qual lado da Força você prefere?",
+        enunciado: "1. Qual é o seu tipo de destino favorito?",
         alternativas: [
             {
-                texto: "A) Lado da Luz",
+                texto: "A) Grandes Cidades",
                 afirmacao: [
-                    "O Guardião. Você valoriza a justiça, a paz e a harmonia. Prefere seguir um caminho de disciplina e altruísmo, sempre pensando no bem maior. Para você, ajudar os outros é mais importante do que obter poder."
+                    "O Cosmopolita. Você é apaixonado por explorar metrópoles vibrantes e modernas. Adora estar cercado de cultura, arte e vida noturna agitada. Prefere locais com muitas opções de entretenimento e um ritmo acelerado."
                 ],
                 proxima: 1,
             },
             {
-                texto: "B) Lado Sombrio",
+                texto: "B) Natureza e Aventuras",
                 afirmacao: [
-                    "O Ambicioso. Você é movido pela paixão e pelo desejo de alcançar seus objetivos a qualquer custo. Não tem medo de explorar o seu potencial ao máximo, mesmo que isso signifique quebrar algumas regras pelo caminho."
+                    "O Explorador. Você prefere destinos onde possa se conectar com a natureza, fazer trilhas e explorar paisagens deslumbrantes. Busca sempre por novas aventuras e se sente revigorado ao estar ao ar livre."
                 ],
                 proxima: 2,
             },
         ]
     },
     {
-        enunciado: "2. Qual é o seu lugar favorito para explorar?",
+        enunciado: "2. Como você prefere se hospedar?",
         alternativas: [
             {
-                texto: "Tatooine",
+                texto: "Hotel de Luxo",
                 afirmacao: [
-                    "O Sobrevivente. Você é resiliente e se adapta bem a ambientes desafiadores. Prefere lugares que testem sua força e perseverança, e vê cada obstáculo como uma oportunidade para crescer.",
+                    "O Confortável. Você valoriza o conforto e gosta de ser bem atendido. Prefere lugares com todas as comodidades, onde possa relaxar e ser mimado após um dia de passeios.",
     
                 ],
                 proxima: 3,
             },
             {
-                texto: "Coruscant",
+                texto: "Hostel ou Airbnb",
                 afirmacao: [
-                    "O Cosmopolita. Você é uma pessoa que adora estar no centro da ação e das decisões importantes. Prefere ambientes urbanos e vibrantes, onde sempre há algo novo acontecendo."
+                    "O Desprendido. Você gosta de experiências autênticas e não se importa com simplicidade. Prefere se hospedar em lugares que ofereçam a oportunidade de conhecer novas pessoas e se sentir como um local."
                 ],
                 proxima: 4,
             },
         ]
     },
     {
-        enunciado: "Qual o seu tipo de mentor ideal?",
+        enunciado: "Qual é sua atividade preferida durante uma viagem?",
         alternativas: [
             {
-                texto: "Yoda",
+                texto: "Visitar Museus e Monumentos",
                 afirmacao: [
-                    "O Sábio. Você valoriza a sabedoria e o aprendizado ao longo da vida. Prefere conselhos baseados na experiência e na paciência, e acredita que o verdadeiro poder vem do conhecimento e do autocontrole."
+                    "O Culto. Você adora mergulhar na história e na cultura dos lugares que visita. Prefere passar o tempo aprendendo sobre o passado e apreciando arte e arquitetura."
                 ],
                 proxima: 3,
             },
             {
-                texto: "Darth Vader",
+                texto: "Experimentar Comidas Locais",
                 afirmacao: [
-                    "O Poderoso. Você se inspira na força e na determinação. Aprecia mentores que lideram com autoridade e não hesitam em tomar decisões difíceis. Para você, a liderança é sobre mostrar força e comando."
+                    "O Gastrônomo. Você acredita que a melhor forma de conhecer um lugar é através da culinária. Ama experimentar novos sabores e está sempre em busca de restaurantes e pratos típicos."
                 ],
                 proxima: 4,
             },
         ]
     },
     {
-        enunciado: "Como você lida com conflitos?",
+        enunciado: "Qual o seu estilo de planejamento de viagem?",
         alternativas: [
             {
-                texto: "Negociação",
+                texto: "Roteiro Detalhado",
                 afirmacao: [
-                    "O Pacificador. Você prefere resolver os conflitos de maneira diplomática, buscando o diálogo e a compreensão. Acredita que a cooperação é sempre uma opção e prefere evitar confrontos diretos."
+                    "O Planejador. Você gosta de ter tudo organizado e planeja cada detalhe da viagem com antecedência. Prefere ter um roteiro claro para aproveitar ao máximo o tempo e evitar imprevistos."
                 ],
                 proxima: 5,
             },
             {
-                texto: "Combate",
+                texto: "Espontâneo",
                 afirmacao: [
-                    "O Guerreiro. Você não foge de uma boa luta e acredita que às vezes a força é necessária para resolver os problemas. Para você, enfrentar os desafios de frente é a melhor maneira de conquistar respeito e autoridade."
+                    "O Aventureiro. Você gosta de deixar as coisas acontecerem naturalmente e decide o que fazer no momento. Prefere a liberdade de explorar sem um roteiro rígido e aproveita cada oportunidade inesperada."
                 ],
                 proxima: 6,
             },
         ]
     },
     {
-        enunciado: "Qual é o seu papel ideal em uma equipe?",
+        enunciado: "Qual é o seu meio de transporte preferido durante as viagens?",
         alternativas: [
             {
-                texto: "Líder",
+                texto: "Transporte Público",
                 afirmacao: [
-                    "O Estrategista. Você gosta de estar no comando e se sente à vontade para tomar decisões difíceis. Prefere guiar os outros com seu senso de direção e responsabilidade, sempre planejando os próximos passos."
+                    "O Prático. Você é uma pessoa que gosta de economizar e de se locomover como os locais. Prefere usar metrô, ônibus ou bicicletas, aproveitando para observar a rotina diária da cidade."
                 ],
                 proxima: 7,
             },
             {
-                texto: "Piloto",
+                texto: "Carro Alugado",
                 afirmacao: [
-                    "O Executor. Você é prático e gosta de estar na linha de frente. Prefere agir rapidamente e tomar decisões no momento, confiando na sua habilidade e reflexos para superar qualquer desafio."
+                    "O Independente. Você valoriza a liberdade e o conforto de explorar no seu próprio ritmo. Gosta de ter a flexibilidade de ir a lugares fora dos roteiros turísticos e tomar suas próprias decisões de trajeto."
                 ],
                 proxima: 8,
             },
         ]
     },
     {
-        enunciado: "Qual é o seu tipo de nave preferido?",
+        enunciado: "Qual é o seu ritmo de viagem?",
         alternativas: [
             {
-                texto: "X-Wing",
+                texto: "Relaxe e Aprecie",
                 afirmacao: [
-                    "O Herói. Você é corajoso e gosta de aventuras, preferindo naves rápidas e versáteis que podem se adaptar a qualquer situação. Para você, é mais importante ser ágil e estar pronto para qualquer desafio."
+                    "O Tranquilo. Você gosta de viagens sem pressa, aproveitando cada momento com calma. Prefere explorar um lugar a fundo, relaxar e realmente se desconectar da rotina."
                 ],
             },
             {
-                texto: "Star Destroyer",
+                texto: "Exploração Intensa",
                 afirmacao: [
-                    "O Dominador. Você prefere o poder e a presença imponente. Gosta de ter controle e de demonstrar força, preferindo naves grandes e poderosas que simbolizam autoridade e controle sobre qualquer situação."
+                    "O Enérgico. Você tem energia de sobra e quer ver o máximo possível. Prefere itinerários cheios e gosta de sentir que aproveitou cada minuto da viagem, sempre buscando novas experiências."
                 ],
             },
         ]
